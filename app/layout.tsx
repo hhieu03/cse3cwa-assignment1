@@ -24,6 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <div style={{ position: 'absolute', top: '10px', left: '10px', fontSize: '0.9rem', fontWeight: 'bold' }}>
+  MSSV: 21929088
+</div>
+
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
       </body>
